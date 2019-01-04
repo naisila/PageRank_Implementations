@@ -9,12 +9,12 @@ We used OpenMP application programming interface that supports multi-platform sh
 * Python for Distributed Implementation
 * C++ for Serial and Parallel Implementation
 ### Findings
-As expected, we observed that the parallel implementation takes shorter amount of time than the serial one. Also, we saw that the distributed implementation using Map-Reduce is actually really efficient compared to Parallel implementation. Furthermore, data preprecessing is done faster in Spark. Nevertheless, there is a trade-off of this result: Spark setup requires its own time. Also, the distributed implementation is not feasible with the calculation of PageRank leakage in case the graph has dead-ends. However, considering much larger graphs than the datasets we used, the Spark setup time will eventually become unsignificant, so it is better to use that implementation and not parallel one. Also, with more sophisticated methods of calculating the PageRank leakage due to dead ends, this problem can also be overcome in the distributed implementation.
+As expected, we observed that the parallel implementation takes shorter amount of time than the serial one. Also, we saw that the distributed implementation using Map-Reduce is actually really efficient compared to Parallel implementation. Furthermore, data preprocessing is done faster in Spark. Nevertheless, there is a trade-off of this result: Spark setup requires its own time. Also, the distributed implementation is not feasible with the calculation of PageRank leakage in case the graph has dead-ends. However, considering much larger graphs than the datasets we used, the Spark setup time will eventually become unsignificant, so it is better to use that implementation and not parallel one. Also, with more sophisticated methods of calculating the PageRank leakage due to dead ends, this problem can also be overcome in the distributed implementation.
 ### Borrowed Ideas
 https://github.com/papadopoulosc/pagerank/blob/master/1st_parallel/pagerank_openmp.c
 https://github.com/apache/spark/blob/master/examples/src/main/python/pagerank.py
 ### Further Details
-Please check our [report](https://github.com/NaisilaPuka/PageRank_Implementations/blob/master/PR_Implementations_Report.pdf).
+Please check our [report](https://github.com/NaisilaPuka/PageRank_Implementations/blob/master/PR_Implementations_Report.pdf), as well as our [presentation](https://github.com/NaisilaPuka/PageRank_Implementations/blob/master/PR_Implementations_Presentation.pdf).
 ### Credits
 1. [Naisila Puka](https://github.com/NaisilaPuka): Distributed (Map-Reduce) Implementation, Report
 2. [Endi Merkuri](https://github.com/endimerkuri): Serial and Parallel Implementation, Convertion of datasets
