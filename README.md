@@ -14,8 +14,8 @@ As expected, we observed that the parallel implementation takes shorter amount o
 https://github.com/papadopoulosc/pagerank/blob/master/1st_parallel/pagerank_openmp.c
 https://github.com/apache/spark/blob/master/examples/src/main/python/pagerank.py
 ### Further Details
-Please check our [report](https://github.com/NaisilaPuka/PageRank_Implementations/blob/master/PR_Implementations_Report.pdf), as well as our [presentation](https://github.com/NaisilaPuka/PageRank_Implementations/blob/master/PR_Implementations_Presentation.pdf).
+Please check our [report](https://github.com/naisila/PageRank_Implementations/blob/master/PR_Implementations_Report.pdf), as well as our [presentation](https://github.com/naisila/PageRank_Implementations/blob/master/PR_Implementations_Presentation.pdf).
 ### Credits
-1. [Naisila Puka](https://github.com/NaisilaPuka): Distributed (Map-Reduce) Implementation, Report
+1. [Naisila Puka](https://github.com/naisila): Distributed (Map-Reduce) Implementation, Report
 2. [Endi Merkuri](https://github.com/endimerkuri): Serial and Parallel Implementation, Convertion of datasets
 3. [Fatbardh Feta](https://github.com/fatbardhfeta): PySpark functions and OpenMP API research
